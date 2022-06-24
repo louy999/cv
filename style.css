@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Roboto:wght@400;500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-family: "Arvo", serif;
+  font-size: 50px;
+}
+
+.container .phot {
+  border: 2px solid #0077bf;
+  width: 165px;
+  height: 165px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: right;
+  border-radius: 50%;
+  position: relative;
+  bottom: 100px;
+  left: -60px;
+}
+
+.container .phot img {
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.container .sh-ex {
+  position: relative;
+  bottom: 30px;
+  color: #0077bf;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container .conta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 500px;
+  position: relative;
+  bottom: 20px;
+}
+
+.container .conta span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  font-weight: 500px;
+}
+
+.container .conta span:nth-child(2) {
+  position: relative;
+  left: 45px;
+}
+
+.container .conta img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.container .experience {
+  float: left;
+  position: relative;
+  top: 300px;
+  left: 480px;
+  width: 200px;
+}
+
+.container .experience h2 {
+  font-family: "Arvo", serif;
+}
+
+.container .experience .line {
+  height: 3px;
+  width: 115px;
+  background-color: black;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+}
+
+.container .experience .jop {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container .experience .voda,
+.container .experience .etsal,
+.container .experience .amricana {
+  border-top: 2px solid #0077bf;
+  margin: 0 0 20px 15px;
+  padding: 20px 0;
+}
+
+.container .experience .voda .in,
+.container .experience .etsal .in,
+.container .experience .amricana .in {
+  font-size: 18px;
+}
+
+.container .experience .voda .acc,
+.container .experience .etsal .acc,
+.container .experience .amricana .acc {
+  color: #0077bf;
+}
+
+.container .experience .voda .date,
+.container .experience .etsal .date,
+.container .experience .amricana .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .experience .voda .date img,
+.container .experience .etsal .date img,
+.container .experience .amricana .date img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.container .experience .voda .date .pr,
+.container .experience .etsal .date .pr,
+.container .experience .amricana .date .pr {
+  color: #0077bf;
+  margin: 0 5px;
+}
+
+.container .edu {
+  float: right;
+}
+
+.container .edu .line {
+  width: 100px;
+  height: 3px;
+  position: relative;
+  right: 20px;
+  background-color: black;
+  bottom: 20px;
+}
+
+.container .edu h2 {
+  font-family: "Arvo", serif;
+}
+
+.container .edu .edud {
+  position: relative;
+  bottom: 10px;
+}
+
+.container .edu .edud .from {
+  color: #0077bf;
+}
+
+.container .edu .edud .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .edu .edud .date img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.container .lan {
+  float: right;
+  position: relative;
+  top: 150px;
+  left: 175px;
+}
+
+.container .lan h2 {
+  font-family: "Arvo", serif;
+}
+
+.container .lan .line {
+  width: 100px;
+  height: 3px;
+  position: relative;
+  right: 20px;
+  background-color: black;
+  bottom: 20px;
+}
+
+.container .lan .land {
+  position: relative;
+  bottom: 30px;
+}
+
+.container .lan .ar {
+  padding: 10px 0;
+  margin: 10px 0;
+  border-bottom: 2px solid #4a4848;
+}
+
+.container .lan .lan-ar,
+.container .lan .lan-en {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

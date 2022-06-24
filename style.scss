@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Roboto:wght@400;500&display=swap");
+$color: #0077bf;
+* {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background-color: white;
+  width: 800px;
+  // height: 100vh;
+  margin: 0 auto;
+  h1 {
+    font-family: "Arvo", serif;
+    font-size: 50px;
+  }
+  .phot {
+    border: 2px solid $color;
+    width: 165px;
+    height: 165px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    left: -60px;
+    img {
+      width: 150px;
+      border-radius: 50%;
+      position: relative;
+    }
+  }
+  .sh-ex {
+    position: relative;
+    bottom: 30px;
+    color: $color;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .conta {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+    position: relative;
+    bottom: 20px;
+    span {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      font-weight: 500px;
+      &:nth-child(2) {
+        position: relative;
+        left: 45px;
+      }
+    }
+    img {
+      margin-right: 5px;
+      width: 20px;
+    }
+  }
+  .experience {
+    float: left;
+    position: relative;
+    top: 300px;
+    left: 480px;
+    width: 200px;
+    h2 {
+      font-family: "Arvo", serif;
+    }
+    .line {
+      height: 3px;
+      width: 115px;
+      background-color: black;
+      position: relative;
+      bottom: 20px;
+      right: 10px;
+    }
+    .jop {
+      // color: $color;
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .voda,
+    .etsal,
+    .amricana {
+      border-top: 2px solid $color;
+      margin: 0 0 20px 15px;
+      padding: 20px 0;
+      .in {
+        font-size: 18px;
+      }
+      .acc {
+        color: $color;
+      }
+      .date {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 5px;
+          width: 20px;
+        }
+
+        .pr {
+          color: $color;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  .edu {
+    float: right;
+    .line {
+      width: 100px;
+      height: 3px;
+      position: relative;
+      right: 20px;
+      background-color: black;
+      bottom: 20px;
+    }
+    h2 {
+      font-family: "Arvo", serif;
+    }
+    .edud {
+      position: relative;
+      bottom: 10px;
+      .from {
+        color: $color;
+      }
+      .date {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 5px;
+          width: 20px;
+        }
+      }
+    }
+  }
+  .lan {
+    float: right;
+    position: relative;
+    top: 150px;
+    left: 175px;
+    h2 {
+      font-family: "Arvo", serif;
+    }
+    .line {
+      width: 100px;
+      height: 3px;
+      position: relative;
+      right: 20px;
+      background-color: black;
+      bottom: 20px;
+    }
+    .land {
+      position: relative;
+      bottom: 30px;
+    }
+    .ar {
+      padding: 10px 0;
+      margin: 10px 0;
+      border-bottom: 2px solid rgb(74, 72, 72);
+    }
+    .lan-ar,
+    .lan-en {
+      margin-right: 10px;
+    }
+  }
+}
